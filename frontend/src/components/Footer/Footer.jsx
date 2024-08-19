@@ -10,7 +10,7 @@ const Footer = () => {
       <div className='footer-content'>
         <div className='footer-content-left'>
           {/* <img src={assets.logo} alt="" /> */}
-          <h1 className='text-[2rem] !text-orange-400 italic '>
+          <h1 className='text-[2rem] !text-orange-400 font-extrabold italic '>
             Nayaab Foods.
           </h1>
           <p>
@@ -29,9 +29,13 @@ const Footer = () => {
           <h2>COMPANY</h2>
           <ul>
             <li>Home</li>
-            <li>About us</li>
+            <li>
+              <a href='/about-us'>About us</a>
+            </li>
             <li>Delivery</li>
-            <li>Privacy policy</li>
+            <li>
+              <a href='/privacy-policy'>Privacy policy</a>
+            </li>
           </ul>
         </div>
         <div className='footer-content-right'>

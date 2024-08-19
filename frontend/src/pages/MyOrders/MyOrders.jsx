@@ -30,18 +30,13 @@ const MyOrders = () => {
       <h2>My Orders</h2>
       <div className='container'>
         {data.length === 0 ? (
-          <p className='text-[3rem] mb-96 w-full text-center text-orange-400 sm:text-[1rem] md:text-[3rem] italic'>
-            No Order Process Yet
+          <p className='text-[3rem] mb-64 w-full text-center text-orange-400 sm:text-[1rem] md:text-[3rem] italic'>
+            No Order Proceed Yet
           </p>
         ) : (
           data.map((order, index) => {
             return (
-              <div
-                key={index}
-                className={`my-orders-order ${
-                  index.length === 0 || (1 && "mb-[15.5rem]")
-                }`}
-              >
+              <div key={index} className={`my-orders-order `}>
                 <img src={assets.parcel_icon} alt='' />
                 <p>
                   {order.items.map((item, index) => {

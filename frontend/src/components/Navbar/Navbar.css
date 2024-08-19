@@ -11,7 +11,7 @@
   width: 250px;
   font-size: 2rem;
   font-weight: 600;
-  color: #f3522e;
+  color: orange;
   font-style: italic;
 }
 
@@ -128,7 +128,7 @@
 @media (max-width: 900px) {
   .navbar .logo {
     width: 120px;
-    font-size: 14px;
+    font-size: 17px;
   }
 
   .navbar-menu {
